@@ -14,3 +14,4 @@ if __name__ == "__main__":
     num2 = 5
     result = sub(num1, num2)
     print(f"The result of subtracting {num2} from {num1} is: {result}")
+
