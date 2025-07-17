@@ -15,4 +15,4 @@ WORKDIR /app
 EXPOSE 5050
 
 # Run the API
-CMD ["python", "app.py"]
+CMD ["python", "main.py"]
