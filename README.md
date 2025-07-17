@@ -1,5 +1,14 @@
 This is a workshop MLOps repository.
 
+## How to configure and run the project
+1. **Fork the repository**: Create your own copy of the repository on GitHub.
+2. **Clone the repository**: Use `git clone <your-fork-url>` to clone the repository to your local machine.
+3. **Install dependencies**: Navigate to the project directory and run `pip install -r requirements.txt` to install the necessary Python packages.
+4. **Run the training script**: Execute `python app/train.py` to train the model.
+5. **Build the Docker image**: Run `docker build -t mlops_abha .` to build the Docker image.
+6. **Run the Docker container**: Use `docker run -p 5050:5050 mlops_abha` to start the container and expose the API on port 5050.
+7. **Access the API**: Open your web browser and navigate to `http://localhost:5050` to access the Flask API.
+
 
 ### ✅ Conventional Commit Message Structure
 
